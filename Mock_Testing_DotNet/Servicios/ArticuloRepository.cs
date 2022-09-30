@@ -11,7 +11,7 @@ namespace Mock_Testing_DotNet.Servicios
 
         public int InsertarArticulo(string Contenido, string Titulo, int AutorId)
         {
-            throw new NotImplementedException();
+            return AutorId;
         }
     }
 }
